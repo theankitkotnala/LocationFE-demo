@@ -1,0 +1,10 @@
+.select {
+    width: 50px;
+    padding: 2px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.select > option {
+    border: 1px solid silver;
+}

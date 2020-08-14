@@ -4,6 +4,22 @@
     padding: 0 10%;
 }
 
+.user--operator {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 15px 4%;
+}
+
+.user--operator > span {
+    display: flex;
+    font-size: 12px;
+    font-family: monospace;
+    margin: 7px 7px;
+    color: #8c8181;
+    font-weight: 600;
+}
+
 .user--cards {
     display: flex;
     justify-content: space-evenly;
