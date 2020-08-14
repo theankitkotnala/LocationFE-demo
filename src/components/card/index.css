@@ -1,0 +1,31 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 0px 2px 1px #00000021;
+    border-radius: 6px;
+    width: 200px;
+    margin: 5px;
+    font-family: monospace;
+    font-family: 14px;
+}
+
+.card:hover {
+    box-shadow: 2px 2px 4px 2px #00000021;
+}
+
+.card div {
+    flex-grow: 1;
+    padding: 4px 5px;
+}
+
+.card--body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 575.98px) { 
+    .card {
+        width: 100%;
+    }
+}

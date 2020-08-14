@@ -1,0 +1,7 @@
+.header {
+    display: flex;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: #ff9f22;
+    box-shadow: 1px 4px 4px #ff9f224f;
+}

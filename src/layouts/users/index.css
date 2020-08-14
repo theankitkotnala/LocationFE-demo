@@ -1,0 +1,12 @@
+.container--body {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10%;
+}
+
+.user--cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
